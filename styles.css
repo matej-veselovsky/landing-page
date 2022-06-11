@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    color: white;
+    height: 100vh;
+    width: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+.header {
+    flex: 0 0 auto;
+    justify-self: flex-start;
+    display: flex;
+}
+
+.logo {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 38px;
+    font-weight: 900;
+    margin: 10px;
+    color: #F9FAF8;
+}
+
+.header .menu {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+
+.menu-option {
+    margin: 10px;
+    font-size: 18px;
+}
+
+.footer {
+    flex: 0 0 auto;
+    justify-self: flex-end;
+    text-align: center;
+}
+
+.container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 100%;
+}
+
+.image {
+    width: 450px;
+    height: auto;
+    border-radius: 5%;
+    max-width: 100%;
+}
+
+.content {
+    max-width: 60%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.dictionary .description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.description h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    flex: 0 0 auto;
+    justify-self: flex-start;
+
+}
+
+.description p {
+    font-size: 18px;
+    color: #E5E7EB;
+    max-width: 80%;
+    flex: 1 1 auto;
+}
+
+.button.translator {
+    background-color: #3882F6;
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 10px;
+    flex: 0 0 auto;
+    justify-self: flex-end;
+}
+
+.button.translator:hover {
+    background-color: #1d427e;
+}
