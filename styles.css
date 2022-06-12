@@ -56,24 +56,26 @@ ul {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    max-width: 100%;
 }
 
 .image {
     width: 450px;
     height: auto;
     border-radius: 5%;
-    max-width: 100%;
 }
 
 .content {
-    max-width: 60%;
+    flex: 1;
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
+    justify-content: center;
+    padding: 10px 0px;
+    width: 100%
 }
 
 .dictionary .description {
+    max-width: 30%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -109,3 +111,8 @@ ul {
 .button.translator:hover {
     background-color: #1d427e;
 }
+
+.boxes {
+    background-color: white;
+}
+
